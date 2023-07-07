@@ -1,5 +1,5 @@
 const passwordBox = document.getElementById("password");
-const length = 15;
+const length = 16;
 
 const upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const lowerCase = "abcdefghijklmnopqrstuvwxyz";
@@ -27,8 +27,13 @@ function createPassword() {
     document.getElementById("copyPassword").innerHTML = "Copy";
 }
 
+
 function copyPassword() {
-    passwordBox.select();
-    document.execCommand("copy");
-    document.getElementById("copyPassword").innerHTML = "Copied";
+    if (passwordBox.value.length <= 0) {
+        alert("Please Generate Password");
+    } else {
+        passwordBox.select();
+        document.execCommand("copy");
+        document.getElementById("copyPassword").innerHTML = "Copied";
+    }
 }
