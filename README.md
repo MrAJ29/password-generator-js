@@ -7,7 +7,7 @@ The Password Generator is a web application built with HTML5, CSS3, and JavaScri
 
 # Key Features:
 - Strong and Secure Passwords: The Password Generator generates random passwords that are designed to be highly secure by incorporating a mix of character types, including capital letters, small letters, numbers, and special symbols.
-- The default length is set to 15 characters, ensuring a sufficient level of complexity.
+- The default length is set to 16 characters, ensuring a sufficient level of complexity.
 - User-Friendly Interface: The web application offers a user-friendly interface that makes it easy for users to generate passwords with just a few clicks.
 - Instant Password Generation: With the Password Generator, users can instantly generate a new password without the need for complex algorithms or calculations.
 
